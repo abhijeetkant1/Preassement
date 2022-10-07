@@ -1,0 +1,2 @@
+spring.jackson.deserialization.UNWRAP_SINGLE_VALUE_ARRAYS=true
+server.port=8081

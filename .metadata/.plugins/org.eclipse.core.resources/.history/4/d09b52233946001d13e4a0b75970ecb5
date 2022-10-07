@@ -1,0 +1,17 @@
+package com.cg.service;
+
+import com.by.preassessment.model.Product;
+import com.by.preassessment.model.ProductList;
+import org.springframework.stereotype.Service;
+
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.Comparator;
+
+@Service
+public class ProductService {
+    public ProductList sortProducts(ProductList products){
+        //JAVA8 jdk stopped being recognized by IntelliJ
+        return products;
+    }
+}
